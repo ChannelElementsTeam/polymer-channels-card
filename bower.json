@@ -1,0 +1,20 @@
+{
+  "name": "polymer-channels-card",
+  "homepage": "https://github.com/ChannelElementsTeam/polymer-channels-card",
+  "authors": [
+    "Kingston Duffie <kduffie@hivepoint.com>"
+  ],
+  "description": "A library to simplify creation of Channel card components based on Polymer",
+  "main": "polymer-channels-card.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^2.0.1"
+  }
+}
