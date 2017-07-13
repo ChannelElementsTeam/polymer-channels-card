@@ -39,7 +39,6 @@
       }
       connectedCallback() {
         super.connectedCallback();
-        this.$.commentEntryArea.style.display = 'none';
         this.stateController.initialize(this, this.data);
       }
       handleCardToCardMessageReceived(participant, cardExchangeMessage, channelMessage) {
