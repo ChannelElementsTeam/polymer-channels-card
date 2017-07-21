@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "^2.0.1"
+    "polymer": "^2.0.1",
+    "distributed-state-controller": "^0.1.1"
   }
 }
