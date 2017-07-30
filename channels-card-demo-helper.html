@@ -87,11 +87,15 @@
         this.participants = [];
         for (let i = 0; i < 3; i++) {
           const participant = {
-            identity: i.toString(),
-            code: i,
+            identity: {
+              publicKey: 'public-key-' + i,
+              address: new Uint8Array([0, 0, 0, i])
+            },
             details: {
               name: 'user' + i
             },
+            code: i + 1,
+            isMe: i === 0,
             isCreator: i === 0,
             memberSince: Date.now(),
             lastActive: Date.now()
